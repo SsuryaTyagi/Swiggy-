@@ -1,5 +1,5 @@
 import React from "react";
-import FooterSection from "./FooterSection";
+import Footersection from "./FooterSection";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -75,13 +75,13 @@ export default function Footer() {
 
          
           <div className="flex gap-12">
-            <FooterSection title="Company" items={Company} />
+            <Footersection title="Company" items={Company} />
             <div>
-              <FooterSection title="Contact Us" items={Contact} />
-              <FooterSection title="Legal" items={Legal} />
+              <Footersection title="Contact Us" items={Contact} />
+              <Footersection title="Legal" items={Legal} />
             </div>
-            <FooterSection title="Available in" items={Available} />
-            <FooterSection title="Life at Swiggy" items={Life} />
+            <Footersection title="Available in" items={Available} />
+            <Footersection title="Life at Swiggy" items={Life} />
           </div>
         </div>
       </div>
