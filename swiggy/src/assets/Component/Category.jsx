@@ -58,7 +58,7 @@ export default function Category() {
                 >
                   <div className="shrink-0 w-[200px] ">
                     <img
-                      src={`http://localhost:5000/images/${cat.image}`}
+                      src={`https://swiggy-backend-soko.onrender.com/images/${cat.image}`}
                       alt=""
                     />
                   </div>
