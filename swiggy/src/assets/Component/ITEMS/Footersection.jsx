@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FooterSection({ title, items }) {
+export default function Footersection({ title, items }) {
   return (
     <div>
       <h2 className="text-[18px] font-bold mb-4">{title}</h2>
