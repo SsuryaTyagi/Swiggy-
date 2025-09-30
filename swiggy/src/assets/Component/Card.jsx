@@ -9,7 +9,7 @@ export default function Card(props) {
      
       <div className="relative group">
         <img
-          src={'http://localhost:5000/images/'+ props.image}
+          src={'https://swiggy-backend-soko.onrender.com/images/'+ props.image}
           alt=''
           className="w-full h-[150px] object-cover group-hover:scale-125 duration-150"
         />
