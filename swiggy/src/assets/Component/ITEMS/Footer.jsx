@@ -1,5 +1,5 @@
 import React from "react";
-import Footersection from "./FooterSection";
+import Footersection from "./Footersection";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
             <div>
               <img
                 className="h-[30px]"
-                src="\footerImage\Group-300x91.png"
+                src="/footerImage/Group-300x91.png"
                 alt=""
               />
             </div>
@@ -53,7 +53,7 @@ export default function Footer() {
           <div>
             <img
               className="h-[270px]"
-              src="\footerImage\app-now-pic-2.webp"
+              src="/footerImage/app-now-pic-2.webp"
               alt=""
             />
           </div>
@@ -67,7 +67,7 @@ export default function Footer() {
           <div>
             <Link to="/">
             <div>
-              <img src="\footerImage\Group-300x91.png" alt="" />
+              <img src="/footerImage/Group-300x91.png" alt="" />
             </div>
             </Link>
             <div>© 2025 Swiggy Limited</div>
