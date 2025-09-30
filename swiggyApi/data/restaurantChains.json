@@ -1,0 +1,276 @@
+[
+  {
+    "image": "2b4f62d606d1b2bfba9ba9e5386fabb7.jpeg",
+    "offer": "Items at ₹179",
+    "title": "Pizza Hut",
+    "rating": 4.2,
+    "minTime": 30,
+    "maxTime": 40,
+    "name": "Pizzas",
+    "place": "New Jodhpur",
+    "price": "₹299"
+  },
+  {
+    "image": "75d0b3ebeb56fe2484c944e94cac7a8d.jpeg",
+    "offer": "₹50 OFF ABOVE ₹199",
+    "title": "Janta Sweet Home",
+    "rating": 4.5,
+    "minTime": 35,
+    "maxTime": 40,
+    "name": "Sweets,South Indian",
+    "place": "Shastri Nagar",
+    "price": "₹349"
+  },
+  {
+    "image": "cef5bf4cc31dc3c46a1e1b027c5627e4.jpeg",
+    "offer": "₹85 OFF ABOVE ₹149",
+    "title": "Parihaar Bhojnalay",
+    "rating": 4.3,
+    "minTime": 35,
+    "maxTime": 40,
+    "name": "North India, Thalis",
+    "place": "Sardarpura",
+    "price": "₹279"
+  },
+  {
+    "image": "eillc7d7hbrzcuussus5.jpeg",
+    "offer": "₹70 OFF ABOVE ₹149",
+    "title": "Kwality Walls Frozen",
+    "rating": 4.5,
+    "minTime": 25,
+    "maxTime": 25,
+    "name": "Desserts,Ice Cream",
+    "place": "Chopsani Housing Board",
+    "price": "₹199"
+  },
+  {
+    "image": "6e04be27387483a7c00444f8e8241108.jpeg",
+    "offer": "₹1-5 OFF ABOVE ₹179",
+    "title": "The Good Bowl",
+    "rating": 4.4,
+    "minTime": 30,
+    "maxTime": 35,
+    "name": "Biryani, North India",
+    "place": "Shastri Nagar",
+    "price": "₹329"
+  },
+  {
+    "image": "w7ndo1dkkk6kf4qfz2p1.jpeg",
+    "offer": "₹100 OFF ABOVE ₹499",
+    "title": "NIC Ice Creams",
+    "rating": 4.7,
+    "minTime": 25,
+    "maxTime": 30,
+    "name": "Desserts,Ice Cream",
+    "place": "Sardarpura",
+    "price": "₹259"
+  },
+  {
+    "image": "f1bc9ddf53de574cdc35ab2f717df234.jpeg",
+    "offer": "Items at ₹109",
+    "title": "Dosh Center",
+    "rating": 4.0,
+    "minTime": 35,
+    "maxTime": 40,
+    "name": "South Indian",
+    "place": "Chopsani Housing Board",
+    "price": "₹189"
+  },
+  {
+    "image": "919cb3be0e7406f86f6741ebe7c30128.jpeg",
+    "offer": "₹125 OFF ABOVE ₹349",
+    "title": "Lunch Box - Meals and Thalis",
+    "rating": 4.3,
+    "minTime": 30,
+    "maxTime": 35,
+    "name": "Biryani, North India",
+    "place": "Shastri Nagar",
+    "price": "₹309"
+  },
+  {
+    "image": "535fc9f9c135f7982317bbb6a64a1ffc.jpeg",
+    "offer": "₹70 OFF ABOVE ₹249",
+    "title": "McDonald's",
+    "rating": 4.4,
+    "minTime": 30,
+    "maxTime": 35,
+    "name": "American",
+    "place": "Rawaton Ka Bass",
+    "price": "₹379"
+  },
+  {
+    "image": "2a41aa363a8ae1e98a4cce95c2d0c589.jpeg",
+    "offer": "₹100 OFF ABOVE ₹449",
+    "title": "Kajal's Cake",
+    "rating": 4.5,
+    "minTime": 35,
+    "maxTime": 40,
+    "name": "Cake",
+    "place": "Chopsani Housing Board",
+    "price": "₹229"
+  },
+
+  {
+      "image": "2274f59cb8efcfab1f446b195bcbda3bshree.avif",
+    "offer": "ITEMS AT ₹99",
+    "title": "Pizza Hut",
+    "rating": 4.3,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Pizzas",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "30278215-be3c-43b4-b524-c951a8c89e5b_1034629image4.avif",
+    "offer": "ITEMS AT ₹99",
+    "title": "Raimens Cafe 79",
+    "rating": 4.4,
+    "minTime": 55,
+    "maxTime": 65,
+    "name": "Bakery, Pizzas, Snacks, Beverages",
+    "place": "VIP Road"
+  },
+  {
+    "image": "bd7954b5-a431-4726-b2da-4670ceba472d_1003414image1.avif",
+    "title": "Urban Cafe",
+    "rating": 3.9,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754image3ma.avif",
+    "offer": "ITEMS AT ₹65",
+    "title": "Healthy Bites",
+    "minTime": 55,
+    "maxTime": 65,
+    "name": "Salads",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "eohdm5sdnq6e2u46xeuximage1pizza.avif",
+    "title": "food of indians",
+    "rating": 4.3,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Chinese, Beverages",
+    "place": "Shanichara Bazaar"
+  },
+  {
+    "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
+    "title": "Adil Hotel",
+    "rating": 4.4,
+    "minTime": 45,
+    "maxTime": 50,
+    "name": "Biryani, Tandoor",
+    "place": "Chhindwara Locality"
+  },
+  {
+    "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
+    "offer": "ITEMS AT ₹99",
+    "title": "Bakery World",
+    "rating": 4.3,
+    "minTime": 50,
+    "maxTime": 60,
+    "name": "Bakery, Ice Cream, Snacks, Beverages",
+    "place": "Parasia Road"
+  },
+  {
+    "image": "gp1ityra6utvzqn6ghnvimage5.avif",
+    "offer": "ITEMS AT ₹99",
+    "title": "The Kohli's",
+    "rating": 3.6,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Chinese, Biryani, Beverages, Tandoor, Salads, Snacks, Pastas, Fast Food, North Indian",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "mt2aggiscfl3yviatwngimage6.avif",
+    "offer": "₹40 OFF ABOVE ₹399",
+    "title": "Shree Naivedyam",
+    "rating": 4.2,
+    "minTime": 55,
+    "maxTime": 65,
+    "name": "Chinese, South Indian, Pizzas, Beverages",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "rvxp5xbniat84r6efku2satakarrestssaurant.avif",
+    "title": "Satkar Restaurant",
+    "rating": 4.4,
+    "minTime": 45,
+    "maxTime": 50,
+    "name": "South Indian, Indian, Salads, Desserts",
+    "place": "Satkar Chowk"
+  },
+  {
+    "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
+    "offer": "₹200 OFF ABOVE ₹1299",
+    "title": "Pastas By Pizza Hut",
+    "rating": 3.9,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Pastas",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "mt2aggiscfl3yviatwngimage6.avif",
+    "title": "Indian Coffee House",
+    "rating": 4.4,
+    "minTime": 50,
+    "maxTime": 60,
+    "name": "South Indian, Chinese, Fast Food, Beverages",
+    "place": "Khajri Chowk"
+  },
+  {
+    "image": "nigqvxgzvyxtfjuqasgg.avif",
+    "offer": "₹100 OFF ABOVE ₹399",
+    "title": "Kathi Junction",
+    "rating": 4.2,
+    "minTime": 50,
+    "maxTime": 60,
+    "name": "rolls, Burgers, Pizzas, Fast Food",
+    "place": "Prasia Road"
+  },
+  {
+    "image": "wa8ek94fp9d97ru1tcyn.avif",
+    "offer": "ITEMS AT ₹50",
+    "title": "Shriji Namkeen",
+    "rating": 3.4,
+    "minTime": 50,
+    "maxTime": 60,
+    "name": "Snacks, Beverages, Desserts",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "h7oibtpm7kqks8cqz3gh.avif",
+    "offer": "₹150 OFF ABOVE ₹299",
+    "title": "The Veg Legacy",
+    "rating": 4.5,
+    "minTime": 60,
+    "maxTime": 70,
+    "name": "Chinese",
+    "place": "Chhindwara City"
+  },
+  {
+     "image": "gp1ityra6utvzqn6ghnvimage5.avif",
+    "title": "Hotel Sai Bajrang Family Restaurant",
+    "rating": 4.3,
+    "minTime": 50,
+    "maxTime": 60,
+    "name": "pure veg, North Indian, Chinese, Maharashtrian",
+    "place": "Chhindwara City"
+  },
+  {
+    "image": "h7oibtpm7kqks8cqz3gh.avif", 
+  "title": "Jai Ganesh Bhojnalaya",
+  "rating": 4.1,
+  "minTime": 55,
+  "maxTime": 65,
+  "name": "South Indian, Indian, Chinese",
+  "place": "Bus stand"
+}
+
+]

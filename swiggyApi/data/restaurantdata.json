@@ -1,0 +1,398 @@
+[
+     {
+    "id": 1,
+    "image_url": [
+      "/images/restaurantimage/0bd8bb4f-0909-4818-8d2a-90a84d0503cf_image3027140a2829745b3ac744ecac6af0f91.avif",
+      "/images/restaurantimage/0e75e614-79da-4005-8c22-d94a50bec4c3_aff6babfddd149e08c18f6ec9e187a628da9fdc4aa1e4da28a7b560ce23a91d7.avif",
+      "/images/restaurantimage/0eb6bbbc-1c3d-4fee-9d2e-3fede1d99f7a_470bc0b9e68e480e974b94a15b93081be66e58514b9f452db35817ee7850bee6.avif"
+    ],
+    "name": "Heritage - The Fine Dine",
+    "rating": 4.3,
+    "cuisines": "Chinese",
+    "price": "₹1000 for two",
+    "location": "North Indian",
+    "address": "Old Judicial Complex, Sector 15, Gurgaon",
+    "distance": "0.8 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 25% off on pre-booking",
+    "bank_offers": "Bank Offer Up to 10% off with bank offers"
+  },
+  {
+    "id": 2,
+    "image_url": [
+      "/images/restaurantimage/2ce9a7d09a5c050d143e2ef146dc1e42.avif",
+      "/images/restaurantimage/5a7594d2737fee2597dd92658549ab28.avif",
+      "/images/restaurantimage/5ddc3aa9-5769-4896-a931-c4e2618a24cb_image22cba672ea34b4f26b64238b6e2805ae1.avif"
+    ],
+    "name": "China Bowl",
+    "rating": 4.5,
+    "cuisines": "Chinese, Thai",
+    "price": "₹450 for two",
+    "location": "Sector 15, Gurgaon",
+    "address": "Huda Commercial Complex, Sector 15, Gurgaon",
+    "distance": "2.2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 3,
+    "image_url": [
+      "/images/restaurantimage/6ca1ea85-ac09-4d1d-b973-5985b99ec0fa_image57d66f3dceac141c2a64595c0531395b5.avif",
+      "/images/restaurantimage/6dd18893-1327-441c-99e1-da1da1fddef1_image85e0c84ae59a74cdeb73ae078dc4050f8.avif",
+      "/images/restaurantimage/6dd18893-1327-441c-99e1-da1da1fddef1_image85e0c84ae59a74cdeb73ae078dc4050f8 (1).avif"
+    ],
+    "name": "The Monk",
+    "rating": 4.2,
+    "cuisines": "Thai, Chinese",
+    "price": "₹2000 for two",
+    "location": " Gurgaon",
+    "address": "Sector 15, Gurgaon",
+    "distance": "2.4 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 30% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 4,
+    "image_url": [
+      "/images/restaurantimage/9a04f32481cd0bdc0894d91ad66e2970.avif",
+      "/images/restaurantimage/9e46620fab36129542e012f9c9ed5314.avif",
+      "/images/restaurantimage/55bdce6f9e025ff142b095658f204f48.avif"
+    ],
+    "name": "Mosaic - Country Inn and Suites By Radisson",
+    "rating": 4.4,
+    "cuisines": "Continental, North Indian",
+    "price": "₹1400 for two",
+    "location": "Sector 12, Gurgaon",
+    "address": "Country Inn and Suites By Radisson, Sector 12, Gurgaon",
+    "distance": "2.1 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 50% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 5,
+    "image_url": [
+      "/images/restaurantimage/73ab8266-9fcb-4204-8b9b-866a60a0ce15_image44179cb9ad62d4e1ea14491ab1f902719.avif",
+      "/images/restaurantimage/89c60b9c-34f1-496d-a308-b617271e0a09_DSC02482f912903a21a443e4a6c364994db15b52.avif",
+      "/images/restaurantimage/119ddbae-38b7-4128-9110-ddef077941e2_6c797f8e4d3d44139cc6e4ebbbf17b1eeb5c9a4498a14275988ebc2c1de13d78.avif"
+    ],
+    "name": "60ml Bar & Lounge - Radisson",
+    "rating": 4.4,
+    "cuisines": "North Indian, Finger Food",
+    "price": "₹1600 for two",
+    "location": "Sector 12, Gurgaon",
+    "address": "Country Inn and Suites By Radisson, Sector 12, Gurgaon",
+    "distance": "2.1 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 50% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 6,
+    "image_url": [
+      "/images/restaurantimage/991e05f042cf45f0ff62bfd917d86b63.avif",
+      "/images/restaurantimage/997ddff7-8032-4302-a48b-6f8542ac0a6b_image4d86e4cb81a0e4c69907567dd88f2c1a0.avif",
+      "/images/restaurantimage/1216bdb5d45848bf164909f31e1a7669.avif"
+    ],
+    "name": "The Grammar Room",
+    "rating": 4.0,
+    "cuisines": "Continental, Desserts",
+    "price": "₹2000 for two",
+    "location": "Sector 15, Gurgaon",
+    "address": "Sector 15, Gurgaon",
+    "distance": "2.9 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+     {
+    "id": 7,
+    "image_url": [
+      "/images/restaurantimage/355235a9b88ba857c9fe24a6b2adf4c3.avif",
+      "/images/restaurantimage/2814584b-71b6-431b-ae08-4f2d3490e944_Copilot202507081309346b8cbf4b95ee4d99abe308b47b6d2875.avif",
+      "/images/restaurantimage/b5765ab8-0843-49b7-a178-a9a0d91299c2_image0e43591b5725b4ce79ab22130b28238c7.avif"
+    ],
+    "name": "Dakotta Kitchen & Grill",
+    "rating": 4.0,
+    "cuisines": "Chinese, North Indian",
+    "price": "₹1756 for two",
+    "location": "Sector 32, Gurgaon",
+    "address": "Sector 32, Gurgaon",
+    "distance": "3 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 20% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 8,
+    "image_url": [
+      "/images/restaurantimage/dua20bgouonepbbsqbxm.avif",
+      "/images/restaurantimage/e366d4ce-f015-4644-8f1b-413f71a4ad9e_be28b73504ec426dba917e002c25cdcdc738e0aeca2044b9ab14cb6b75c865c7.avif",
+      "/images/restaurantimage/e788071ed36bf7a41b93d30ac2f7bca1.avif"
+    ],
+    "name": "Shaken & Stirred",
+    "rating": 4.1,
+    "cuisines": "Bar Food, Continental",
+    "price": "₹1500 for two",
+    "location": "Majestic, Bangalore",
+    "address": "IV Sanctum Hotel, Majestic, Bangalore",
+    "distance": "2.7 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 30% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 9,
+    "image_url": [
+      "/images/restaurantimage/f5d7f6a2474d48df644faa224dace5c5.avif",
+      "/images/restaurantimage/f786399a-2311-4e7d-b8cf-027e53869d8a_DSC0246194bfefd4c54149b18eb549224d8f4540.avif",
+      "/images/restaurantimage/fedeb5d0-4222-45d6-9042-a51370204733_image92670826e42d7466fb56be2265299c0c7.avif"
+    ],
+    "name": "La Pino'z Pizza",
+    "rating": 4.2,
+    "cuisines": "Italian, Pizza",
+    "price": "₹500 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 25% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 10,
+    "image_url": [
+      "/images/restaurantimage/gbgm9wn8fxxvjthif23s.avif",
+      "/images/restaurantimage/iecnjcqityrvllkmgbtt.avif",
+      "/images/restaurantimage/kdyzw1pcywv3aaa0ba6b.avif"
+    ],
+    "name": "Lemaire Patisserie",
+    "rating": 4.8,
+    "cuisines": "Bakery, Desserts",
+    "price": "₹500 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "2.2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 15% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 11,
+    "image_url": [
+      "/images/restaurantimage/mgdtn2dgf0aiytsnze0g.avif",
+      "/images/restaurantimage/mqincrqtjoqlenfcprk2.avif",
+      "/images/restaurantimage/nb0vsniez1gsqycowfpn.avif"
+    ],
+    "name": "Soho",
+    "rating": 3.9,
+    "cuisines": "Bar Food, Chinese",
+    "price": "₹1800 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "2.3 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 12,
+    "image_url": [
+      "/images/restaurantimage/oiorrlselheq51ebfjc1.avif",
+      "/images/restaurantimage/pappdtinrzk23zjsduu2.avif",
+      "/images/restaurantimage/qatwatjelnqzcmk0wa1p.avif"
+    ],
+    "name": "Curry Leaves",
+    "rating": 4.1,
+    "cuisines": "Andhra, North Indian",
+    "price": "₹500 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "3.2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 15% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 13,
+    "image_url": [
+      "/images/restaurantimage/rnzbwaybrjdzaqsle4rz.avif",
+      "/images/restaurantimage/u1ki2bmbwuukaum6kpac.avif",
+      "/images/restaurantimage/u5ambzsxfrgbmazulvyh.avif"
+    ],
+    "name": "Board 4 Bored",
+    "rating": 4.6,
+    "cuisines": "Chinese, Fast Food",
+    "price": "₹800 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Chaitanya Plaza, Basavanagudi, Bangalore",
+    "distance": "2.7 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 30% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 14,
+    "image_url": [
+      "/images/restaurantimage/xaiq83lawixpsuijtdh1.avif",
+      "/images/restaurantimage/yhnbkfsbaxlhw55dnhls.avif",
+      "/images/restaurantimage/zawvcl2qiziiuxckgeei.avif"
+    ],
+    "name": "Amoroso",
+    "rating": 4.6,
+    "cuisines": "Continental, Chinese",
+    "price": "₹800 for two",
+    "location": "Jubilee Hills, Hyderabad",
+    "address": "Jubilee Hills, Hyderabad",
+    "distance": "0.3 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 35% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 15,
+    "image_url": [
+      "/images/restaurantimage/ckhjjuda2lig6lwdbtec.avif",
+      "/images/restaurantimage/czx2mvj4ngpkarzo1qsk.avif",
+      "/images/restaurantimage/d4f62741-4a31-4040-b282-b3b4b0b7851d_Desserts4554fa531e5ac46039a00f9c8436f8f77.avif"
+    ],
+    "name": "California Burrito",
+    "rating": 4.6,
+    "cuisines": "American",
+    "price": "₹450 for two",
+    "location": "Kothaguda, Hyderabad",
+    "address": "Kothaguda, Hyderabad",
+    "distance": "5.9 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 16,
+    "image_url": [
+      "/images/restaurantimage/f786399a-2311-4e7d-b8cf-027e53869d8a_DSC0246194bfefd4c54149b18eb549224d8f4540.avif",
+      "/images/restaurantimage/f5d7f6a2474d48df644faa224dace5c5.avif",
+      "/images/restaurantimage/gbgm9wn8fxxvjthif23s.avif"
+    ],
+    "name": "Lemaire Patisserie",
+    "rating": 4.8,
+    "cuisines": "Bakery, Desserts",
+    "price": "₹500 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "2.2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 15% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 17,
+    "image_url": [
+      "/images/restaurantimage/iecnjcqityrvllkmgbtt.avif",
+      "/images/restaurantimage/kdyzw1pcywv3aaa0ba6b.avif",
+      "/images/restaurantimage/mgdtn2dgf0aiytsnze0g.avif"
+    ],
+    "name": "Soho",
+    "rating": 3.9,
+    "cuisines": "Bar Food, Chinese",
+    "price": "₹1800 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "2.3 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 18,
+    "image_url": [
+      "/images/restaurantimage/mqincrqtjoqlenfcprk2.avif",
+      "/images/restaurantimage/nb0vsniez1gsqycowfpn.avif",
+      "/images/restaurantimage/oiorrlselheq51ebfjc1.avif"
+    ],
+    "name": "Curry Leaves",
+    "rating": 4.1,
+    "cuisines": "Andhra, North Indian",
+    "price": "₹500 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Basavanagudi, Bangalore",
+    "distance": "3.2 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 15% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 19,
+    "image_url": [
+      "/images/restaurantimage/pappdtinrzk23zjsduu2.avif",
+      "/images/restaurantimage/qatwatjelnqzcmk0wa1p.avif",
+      "/images/restaurantimage/rnzbwaybrjdzaqsle4rz.avif"
+    ],
+    "name": "Board 4 Bored",
+    "rating": 4.6,
+    "cuisines": "Chinese, Fast Food",
+    "price": "₹800 for two",
+    "location": "Basavanagudi, Bangalore",
+    "address": "Chaitanya Plaza, Basavanagudi, Bangalore",
+    "distance": "2.7 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 30% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 20,
+    "image_url": [
+      "/images/restaurantimage/u1ki2bmbwuukaum6kpac.avif",
+      "/images/restaurantimage/u5ambzsxfrgbmazulvyh.avif",
+      "/images/restaurantimage/vt9pime78kobgu0i9uzs.avif"
+    ],
+    "name": "Amoroso",
+    "rating": 4.6,
+    "cuisines": "Continental, Chinese",
+    "price": "₹800 for two",
+    "location": "Jubilee Hills, Hyderabad",
+    "address": "Jubilee Hills, Hyderabad",
+    "distance": "0.3 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 35% off on pre-booking",
+    "bank_offers": "Up to 10% off with bank offers"
+  },
+  {
+    "id": 21,
+    "image_url": [
+      "/images/restaurantimage/xaiq83lawixpsuijtdh1.avif",
+      "/images/restaurantimage/yhnbkfsbaxlhw55dnhls.avif",
+      "/images/restaurantimage/zawvcl2qiziiuxckgeei.avif"
+    ],
+    "name": "California Burrito",
+    "rating": 4.6,
+    "cuisines": "American",
+    "price": "₹450 for two",
+    "location": "Kothaguda, Hyderabad",
+    "address": "Kothaguda, Hyderabad",
+    "distance": "5.9 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  },
+  {
+    "id": 22,
+    "image_url": [
+      "/images/restaurantimage/0e75e614-79da-4005-8c22-d94a50bec4c3_aff6babfddd149e08c18f6ec9e187a628da9fdc4aa1e4da28a7b560ce23a91d7.avif",
+      "/images/restaurantimage/0eb6bbbc-1c3d-4fee-9d2e-3fede1d99f7a_470bc0b9e68e480e974b94a15b93081be66e58514b9f452db35817ee7850bee6.avif",
+      "/images/restaurantimage/2ce9a7d09a5c050d143e2ef146dc1e42.avif"
+    ],
+    "name": "California Burrito",
+    "rating": 4.4,
+    "cuisines": "Continental, Mexican",
+    "price": "₹450 for two",
+    "location": "Madhapur, Hyderabad",
+    "address": "Inorbit Mall, Madhapur, Hyderabad",
+    "distance": "5.9 km",
+    "features": "Table booking",
+    "restaurant_offers": "Flat 10% off on walk-in",
+    "bank_offers": "Up to 10% off with bank offers, Get extra 10% off using SAVE150UPI"
+  }
+]
