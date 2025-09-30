@@ -23,7 +23,7 @@ export default function RestaurantCard(items) {
       {/* Image & Name + Rating */}
       <div className="relative w-full h-[180px]">
         <img
-          src={"http://localhost:5000" + image[imageIndex]}
+          src={"https://swiggy-backend-soko.onrender.com" + image[imageIndex]}
           alt={items.name}
           className="w-full h-full object-cover"
         />
