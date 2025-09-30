@@ -10,7 +10,7 @@ export default function Context({ children }) {
 
   const fetchApi = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/top-restaurant-chains");
+      const res = await axios.get("https://swiggy-backend-soko.onrender.com/top-restaurant-chains");
       setData(res.data); 
     } catch (error) {
       console.error("Error fetching API:", error);
@@ -18,7 +18,7 @@ export default function Context({ children }) {
   };
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/top-restaurant-data");
+      const res = await axios.get("https://swiggy-backend-soko.onrender.com/top-restaurant-data");
       setImageData(res.data); 
     } catch (error) {
       console.error("Error fetching API:", error);
@@ -26,7 +26,7 @@ export default function Context({ children }) {
   };
   const fetchImag = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/categories");
+      const res = await axios.get("https://swiggy-backend-soko.onrender.com/categories");
       setCategories(res.data); 
     } catch (error) {
       console.error("Error fetching API:", error);
