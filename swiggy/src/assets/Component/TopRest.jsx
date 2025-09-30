@@ -8,7 +8,7 @@ export default function TopRest() {
 
   const fetchApi = async () => {
     try {
-      const res = await fetch("http://localhost:5000/top-restaurant-chains");
+      const res = await fetch("https://swiggy-backend-soko.onrender.com/top-restaurant-chains");
       const DataApi = await res.json();
       setData(DataApi);
     } catch (error) {
