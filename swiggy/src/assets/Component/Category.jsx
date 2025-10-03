@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { RestContext } from "./Context/Context";
+import SliderTopHeading from "./ITEMS/sliderTopHeading";
 
 export default function Category() {
   const [slider, setSlider] = useState(0);
@@ -23,25 +24,7 @@ export default function Category() {
       <div className="h-full w-full flex items-center justify-center flex-col">
         <div className="w-[1200px]">
           {/* Header with buttons */}
-          <div className="flex my-4 justify-between">
-            <div className="font-bold text-[25px]">
-              <div>What's on your mind?</div>
-            </div>
-            <div className="flex">
-              <div
-                onClick={handlePrev}
-                className="w-[35px] h-[35px] bg-[#02060C26] rounded-full flex justify-center items-center mx-1 cursor-pointer"
-              >
-                <FaArrowLeft />
-              </div>
-              <div
-                onClick={handleNext}
-                className="w-[35px] h-[35px] bg-[#02060C26] rounded-full flex justify-center items-center mx-1 cursor-pointer"
-              >
-                <FaArrowRight />
-              </div>
-            </div>
-          </div>
+            <SliderTopHeading scrollRight={handleNext} scrollLeft={handlePrev} title="What's on your mind?"/>
 
           <div className="overflow-hidden relative">
             <div

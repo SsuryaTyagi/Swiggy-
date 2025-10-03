@@ -7,6 +7,11 @@ export default function Context({ children }) {
   const [data, setData] = useState([]);
   const [categories, setCategories] = useState([]);
     const [imagaData, setImageData] = useState([]);
+      const [cart, setCart] = useState([]); // cart ke liye state
+
+  const addtoCart = (item) => {
+    setCart((prev) => [...prev, item]); // item ko cart me daalo
+  };
 
   const fetchApi = async () => {
     try {
@@ -40,7 +45,7 @@ export default function Context({ children }) {
   }, []);
 
   return (
-    <RestContext.Provider value={{ data, categories,imagaData }}>
+    <RestContext.Provider value={{ data, categories,imagaData,addtoCart,cart }}>
       {children}
     </RestContext.Provider>
   );

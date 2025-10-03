@@ -8,11 +8,12 @@ import { Routes, Route } from "react-router-dom";
 import Best from './assets/Component/Best'
 import Footer from './assets/Component/ITEMS/Footer'
 import Search from './assets/Component/search/Search'
-import Collections from './assets/Component/Collection/collections.jsx'
+import Collections from './assets/Component/Pages/collections.jsx'
 import City from './assets/Component/Pages/City.jsx'
 import Offer from './assets/Component/Pages/Offer.jsx'
 import Chhindwara from './assets/Component/Pages/Chhindwara.jsx'
 import HelpSupport from './assets/Component/Pages/Help.jsx'
+import Cart from './assets/Component/Pages/Cart.jsx'
 
 export default function App() {
       const places=[
@@ -63,6 +64,7 @@ export default function App() {
              <Route path='/offers' element={<Offer/>}/>
              <Route path='/help' element={<HelpSupport/>}/>
                 <Route path='/chhindwara' element={<Chhindwara/>}/>
+                <Route path='/cart' element={<Cart/>}/>
       </Routes>
       
  </>

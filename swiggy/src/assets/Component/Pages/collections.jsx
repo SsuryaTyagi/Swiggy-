@@ -19,6 +19,7 @@ export default function Collections() {
   // Filter data based on name
   const filtered = data.filter((item) => {
     const searchName = name.toLowerCase();
+    const searchdis = dis.toLowerCase();
     return (
       item.title.toLowerCase().includes(searchName) ||
       item.name.toLowerCase().includes(searchName) ||

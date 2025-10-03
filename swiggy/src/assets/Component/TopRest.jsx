@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Card from "./Card";
+import SliderTopHeading from "./ITEMS/sliderTopHeading";
 
 export default function TopRest() {
   const [data, setData] = useState([]);
@@ -46,26 +46,7 @@ export default function TopRest() {
     <div className="h-full w-full flex items-center justify-center flex-col">
       <div className="w-[1200px] shrink-0 grow">
         {/* Header with buttons */}
-        <div className="flex my-4 justify-between">
-          <div className="font-bold text-[25px]">
-            <div>Top restaurant chains in Chhindwara</div>
-          </div>
-          <div className="flex">
-            <div
-              onClick={scrollLeft}
-              className="w-[35px] h-[35px] bg-[#02060C26] rounded-full flex justify-center items-center mx-1 cursor-pointer"
-            >
-              <FaArrowLeft />
-            </div>
-            <div
-              onClick={scrollRight}
-              className="w-[35px] h-[35px] bg-[#02060C26] rounded-full flex justify-center items-center mx-1 cursor-pointer"
-            >
-              <FaArrowRight />
-            </div>
-          </div>
-        </div>
-
+        <SliderTopHeading scrollLeft={scrollLeft} scrollRight={scrollRight} title="Top restaurant chains in Chhindwara"/>
         {/* Cards Slider */}
         <div
           ref={sliderRef}
