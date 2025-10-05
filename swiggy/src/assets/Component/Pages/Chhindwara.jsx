@@ -8,9 +8,10 @@ import { IoReturnUpForward } from "react-icons/io5";
 export default function Chhindwara() {
   const location = useLocation().state;
 
+  const {data, addtoCart} =useContext(RestContext);
+
   // console.log(location);
 
-  const { data,addtoCart } = useContext(RestContext);
   console.log(data);
 
   const fillted = data.filter((items) => {
@@ -65,7 +66,7 @@ export default function Chhindwara() {
                     className="h-[120px] w-[150px] object-cover rounded-lg"
                   />
                   <div className="font-bold p-7">{itmes.name}</div>
-                  <button onClick={()=>addtoCart(item)} className="absolute bottom-2 right-0 -translate-x-1/2 bg-white px-4 py-1 rounded shadow text-green-600 font-bold">
+                  <button onClick={()=>addtoCart(itmes)} className="absolute bottom-2 right-0 -translate-x-1/2 bg-white px-4 py-1 rounded shadow text-green-600 font-bold">
                     ADD
                   </button>
                 </div>

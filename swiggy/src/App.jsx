@@ -46,7 +46,8 @@ export default function App() {
  
   return (
  <>
-   <Header />
+<div className=' overflow-hidden'>
+     <Header />
       <Routes>
         <Route path="/" element={
           <>
@@ -66,6 +67,7 @@ export default function App() {
                 <Route path='/chhindwara' element={<Chhindwara/>}/>
                 <Route path='/cart' element={<Cart/>}/>
       </Routes>
+</div>
       
  </>
   )

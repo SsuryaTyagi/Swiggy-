@@ -109,16 +109,16 @@
     "place": "Chopsani Housing Board",
     "price": "₹229"
   },
-
   {
-      "image": "2274f59cb8efcfab1f446b195bcbda3bshree.avif",
+    "image": "2274f59cb8efcfab1f446b195bcbda3bshree.avif",
     "offer": "ITEMS AT ₹99",
     "title": "Pizza Hut",
     "rating": 4.3,
     "minTime": 60,
     "maxTime": 70,
     "name": "Pizzas",
-    "place": "Chhindwara City"
+    "place": "Chhindwara City",
+    "price": "₹100"
   },
   {
     "image": "30278215-be3c-43b4-b524-c951a8c89e5b_1034629image4.avif",
@@ -128,7 +128,8 @@
     "minTime": 55,
     "maxTime": 65,
     "name": "Bakery, Pizzas, Snacks, Beverages",
-    "place": "VIP Road"
+    "place": "VIP Road",
+    "price": "₹100"
   },
   {
     "image": "bd7954b5-a431-4726-b2da-4670ceba472d_1003414image1.avif",
@@ -137,7 +138,8 @@
     "minTime": 60,
     "maxTime": 70,
     "name": "Snacks, Pizzas, Pastas, Fast Food, Burgers, Cafe",
-    "place": "Chhindwara City"
+    "place": "Chhindwara City",
+    "price": "₹260"
   },
   {
     "image": "dbe91f1f-b400-4f4b-a78d-c6b99bdc61c5_912754image3ma.avif",
@@ -146,7 +148,8 @@
     "minTime": 55,
     "maxTime": 65,
     "name": "Salads",
-    "place": "Chhindwara City"
+    "place": "Chhindwara City",
+    "price": "₹220"
   },
   {
     "image": "eohdm5sdnq6e2u46xeuximage1pizza.avif",
@@ -155,7 +158,8 @@
     "minTime": 60,
     "maxTime": 70,
     "name": "Chinese, Beverages",
-    "place": "Shanichara Bazaar"
+    "place": "Shanichara Bazaar",
+    "price": "₹100"
   },
   {
     "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
@@ -164,7 +168,8 @@
     "minTime": 45,
     "maxTime": 50,
     "name": "Biryani, Tandoor",
-    "place": "Chhindwara Locality"
+    "place": "Chhindwara Locality",
+    "price": "₹190"
   },
   {
     "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
@@ -174,7 +179,8 @@
     "minTime": 50,
     "maxTime": 60,
     "name": "Bakery, Ice Cream, Snacks, Beverages",
-    "place": "Parasia Road"
+    "place": "Parasia Road",
+    "price": "₹120"
   },
   {
     "image": "gp1ityra6utvzqn6ghnvimage5.avif",
@@ -184,93 +190,7 @@
     "minTime": 60,
     "maxTime": 70,
     "name": "Chinese, Biryani, Beverages, Tandoor, Salads, Snacks, Pastas, Fast Food, North Indian",
-    "place": "Chhindwara City"
-  },
-  {
-    "image": "mt2aggiscfl3yviatwngimage6.avif",
-    "offer": "₹40 OFF ABOVE ₹399",
-    "title": "Shree Naivedyam",
-    "rating": 4.2,
-    "minTime": 55,
-    "maxTime": 65,
-    "name": "Chinese, South Indian, Pizzas, Beverages",
-    "place": "Chhindwara City"
-  },
-  {
-    "image": "rvxp5xbniat84r6efku2satakarrestssaurant.avif",
-    "title": "Satkar Restaurant",
-    "rating": 4.4,
-    "minTime": 45,
-    "maxTime": 50,
-    "name": "South Indian, Indian, Salads, Desserts",
-    "place": "Satkar Chowk"
-  },
-  {
-    "image": "f249ac91-2d8f-472b-b60c-4a7ea4ed9f86_1003415pasta.avif",
-    "offer": "₹200 OFF ABOVE ₹1299",
-    "title": "Pastas By Pizza Hut",
-    "rating": 3.9,
-    "minTime": 60,
-    "maxTime": 70,
-    "name": "Pastas",
-    "place": "Chhindwara City"
-  },
-  {
-    "image": "mt2aggiscfl3yviatwngimage6.avif",
-    "title": "Indian Coffee House",
-    "rating": 4.4,
-    "minTime": 50,
-    "maxTime": 60,
-    "name": "South Indian, Chinese, Fast Food, Beverages",
-    "place": "Khajri Chowk"
-  },
-  {
-    "image": "nigqvxgzvyxtfjuqasgg.avif",
-    "offer": "₹100 OFF ABOVE ₹399",
-    "title": "Kathi Junction",
-    "rating": 4.2,
-    "minTime": 50,
-    "maxTime": 60,
-    "name": "rolls, Burgers, Pizzas, Fast Food",
-    "place": "Prasia Road"
-  },
-  {
-    "image": "wa8ek94fp9d97ru1tcyn.avif",
-    "offer": "ITEMS AT ₹50",
-    "title": "Shriji Namkeen",
-    "rating": 3.4,
-    "minTime": 50,
-    "maxTime": 60,
-    "name": "Snacks, Beverages, Desserts",
-    "place": "Chhindwara City"
-  },
-  {
-    "image": "h7oibtpm7kqks8cqz3gh.avif",
-    "offer": "₹150 OFF ABOVE ₹299",
-    "title": "The Veg Legacy",
-    "rating": 4.5,
-    "minTime": 60,
-    "maxTime": 70,
-    "name": "Chinese",
-    "place": "Chhindwara City"
-  },
-  {
-     "image": "gp1ityra6utvzqn6ghnvimage5.avif",
-    "title": "Hotel Sai Bajrang Family Restaurant",
-    "rating": 4.3,
-    "minTime": 50,
-    "maxTime": 60,
-    "name": "pure veg, North Indian, Chinese, Maharashtrian",
-    "place": "Chhindwara City"
-  },
-  {
-    "image": "h7oibtpm7kqks8cqz3gh.avif", 
-  "title": "Jai Ganesh Bhojnalaya",
-  "rating": 4.1,
-  "minTime": 55,
-  "maxTime": 65,
-  "name": "South Indian, Indian, Chinese",
-  "place": "Bus stand"
-}
-
+    "place": "Chhindwara City",
+    "price": "₹180"
+  }
 ]

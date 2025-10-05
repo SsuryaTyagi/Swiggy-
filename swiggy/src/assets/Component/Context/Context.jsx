@@ -6,33 +6,39 @@ export const RestContext = createContext();
 export default function Context({ children }) {
   const [data, setData] = useState([]);
   const [categories, setCategories] = useState([]);
-    const [imagaData, setImageData] = useState([]);
-      const [cart, setCart] = useState([]); // cart ke liye state
+  const [imagaData, setImageData] = useState([]);
+  const [cart,setCart]=useState([]);
 
-  const addtoCart = (item) => {
-    setCart((prev) => [...prev, item]); // item ko cart me daalo
-  };
+  const addtoCart = (item)=>{
+    setCart((prev) => [...prev, item]);
+  }
 
   const fetchApi = async () => {
     try {
-      const res = await axios.get("https://swiggy-backend-soko.onrender.com/top-restaurant-chains");
-      setData(res.data); 
+      const res = await axios.get(
+        "https://swiggy-backend-soko.onrender.com/top-restaurant-chains"
+      );
+      setData(res.data);
     } catch (error) {
       console.error("Error fetching API:", error);
     }
   };
   const fetchData = async () => {
     try {
-      const res = await axios.get("https://swiggy-backend-soko.onrender.com/top-restaurant-data");
-      setImageData(res.data); 
+      const res = await axios.get(
+        "https://swiggy-backend-soko.onrender.com/top-restaurant-data"
+      );
+      setImageData(res.data);
     } catch (error) {
       console.error("Error fetching API:", error);
     }
   };
   const fetchImag = async () => {
     try {
-      const res = await axios.get("https://swiggy-backend-soko.onrender.com/categories");
-      setCategories(res.data); 
+      const res = await axios.get(
+        "https://swiggy-backend-soko.onrender.com/categories"
+      );
+      setCategories(res.data);
     } catch (error) {
       console.error("Error fetching API:", error);
     }
@@ -45,7 +51,9 @@ export default function Context({ children }) {
   }, []);
 
   return (
-    <RestContext.Provider value={{ data, categories,imagaData,addtoCart,cart }}>
+    <RestContext.Provider
+      value={{ data, categories, imagaData, addtoCart, cart,setCart }}
+    >
       {children}
     </RestContext.Provider>
   );
