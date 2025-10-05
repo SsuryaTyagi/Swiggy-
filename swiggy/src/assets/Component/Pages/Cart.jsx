@@ -15,11 +15,11 @@ export default function Cart() {
   );
 
   return (
-    <div className="p-5 bg-[#e9ecee] h-screen w-screen flex justify-center overflow-x-hidden overflow-y-hidden items-center">
-      <div className=" bg-white min-h-[600px] w-[1200px] p-4 flex  justify-between ">
+    <div className=" bg-[#e9ecee] h-screen  flex justify-center overflow-hidden items-center">
+      <div className=" bg-white min-h-[800px] w-[1200px] p-4 flex  justify-between  ">
         {cart.length === 0 ? (
-          <div className="h-full w-full flex justify-center items-center   ">
-            <p className="text-gray-500 text-2xl  ">Cart is empty🛍️😕</p>
+          <div className=" w-full flex justify-center items-center   ">
+            <p className="text-gray-500 font-bold text-2xl  ">Cart is empty🛍️😕</p>
           </div>
         ) : (
           <div className="w-[800px] h-auto shadow-xl border-2 p-4">
@@ -40,7 +40,7 @@ export default function Cart() {
             ))}
           </div>
         )}
-        <div className={`border-2 ${cart.length == 0 ? "hidden" : "none"} shadow-lg fixed  right-22 hover:shadow-2xl p-4 transition-shadow text-black flex flex-col  h-[350px] w-[300px]`}>
+        <div className={`border-2 ${cart.length == 0 ? "hidden" : "none"} shadow-lg fixed  right-[20%] hover:shadow-2xl p-4 transition-shadow text-black flex flex-col  h-[350px] w-[300px]`}>
           <p className="font-bold text-3xl mb-4"> Bill Details</p>
           <div className="flex font-semibold justify-between">
             <span>Total item</span>

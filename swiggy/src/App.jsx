@@ -46,7 +46,7 @@ export default function App() {
  
   return (
  <>
-<div className=' overflow-hidden'>
+<div>
      <Header />
       <Routes>
         <Route path="/" element={

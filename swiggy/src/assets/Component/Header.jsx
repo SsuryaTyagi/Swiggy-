@@ -57,7 +57,7 @@ export default function Header() {
           <h1>hello guys</h1>
         </div>
       </div>
-     <header className="p-3 shadow-xl sticky top-0 bg-white z-10">
+     <header className="p-3 shadow-xl sticky top-0 bg-white overflow-hidden  z-10">
         <div className=" md:w-[1400px] w-[300px]  mx-auto flex  justify-between items-center">
          <div className="flex">
            <Link to="/" >
