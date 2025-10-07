@@ -7,7 +7,7 @@ export default function RestaurentDelivery() {
   const {data}= useContext(RestContext)
   return (
     <div className="h-full w-full flex items-center  flex-col">
-        <div className="lg:w-[1200px]  md:w-[750px] sm:w-[600px] w-[300px]">
+        <div className="lg:w-[1200px]  md:w-[750px] sm:w-[600px] w-[360px]">
           {/* Header with buttons */}
           <div className="flex my-4 justify-between">
             <div className="font-bold m:text-[25px] text-[16px]">

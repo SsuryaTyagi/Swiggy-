@@ -7,7 +7,7 @@ export default function Best({ title, place }) {
   return (
     <>
       <div className=" w-full flex items-center  flex-col">
-        <div className="lg:w-[1200px]  md:w-[750px] sm:w-[600px] w-[300px]">
+        <div className="lg:w-[1200px]  md:w-[750px] sm:w-[600px] w-[360px]">
           {/* Header with buttons */}
           <div className="flex my-4 justify-between">
             <div className="font-bold text-[25px]">
@@ -15,7 +15,7 @@ export default function Best({ title, place }) {
             </div>
           </div>
           {place && (
-            <div className="grid lg:grid-cols-4 ml-4 sm:grid-cols-3 grid-cols-2 md:g ">
+            <div className="grid lg:grid-cols-4 ml-4 sm:grid-cols-3 grid-cols-3  ">
               {place.map((name, index) => ( 
                 <Link to="/City" key={index} state={{Name: name}}>
                   <List {...name}  />

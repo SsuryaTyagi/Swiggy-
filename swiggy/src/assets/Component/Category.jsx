@@ -22,7 +22,7 @@ export default function Category() {
   return (
     <>
       <div className=" w-screen flex items-center  flex-col">
-        <div className="lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[300px]">
+        <div className="lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[360px]">
           {/* Header with buttons */}
             <SliderTopHeading scrollRight={handleNext} scrollLeft={handlePrev} title="What's on your mind?"/>
 
