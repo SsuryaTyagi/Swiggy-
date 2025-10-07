@@ -11,7 +11,7 @@ export default function Offer() {
 
   return (
   <>
-    <div className="w-full  overflow-hidden flex justify-center">
+    <div className="w-full  flex justify-center">
       <div className="w-[1600px]">
         <div>
           <HeadImage zName="Restaurants With Great Offers Near Me" />

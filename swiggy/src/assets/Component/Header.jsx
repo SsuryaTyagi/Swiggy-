@@ -6,22 +6,15 @@ import { LiaSignInAltSolid } from "react-icons/lia";
 import { BsCart3 } from "react-icons/bs";
 import { FaSearch } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
-import { Link, Links } from "react-router-dom";
-
-// import SideBar from './ITEMS/SideBar';
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
 
-  const showShideMenu = () => {
-    setToggle(true);
-  };
-  const hideSideMenu = () => {
-    // console.log("hello")
-    setToggle(false);
-  };
+  const showSideMenu = () => setToggle(true);
+  const hideSideMenu = () => setToggle(false);
 
-  const link = [
+  const links = [
     { icon: <FaSearch />, Name: "Search", path: "/search" },
     { icon: <BiSolidOffer />, Name: "Offer", path: "/offers" },
     { icon: <IoHelpBuoyOutline />, Name: "Help", path: "/help" },
@@ -31,69 +24,74 @@ export default function Header() {
 
   return (
     <>
+      {/* Mobile Sidebar Overlay */}
       <div
-        className="black-overlay w-full h-full fixed duration-500 z-50"
-        onClick={() => hideSideMenu()}
-        style={{
-          opacity: toggle ? 1 : 0,
-          visibility: toggle ? "visible" : "hidden",
-        }}
+        className="fixed inset-0 bg-black bg-opacity-50 z-50 transition-opacity duration-300"
+        onClick={hideSideMenu}
+        style={{ opacity: toggle ? 1 : 0, visibility: toggle ? "visible" : "hidden" }}
       >
         <div
-          onClick={(e) => {
-            e.stopPropagation();
-          }}
-          className="w-[500px] h-full bg-white duration-[400ms] absolute "
-          style={{
-            left: toggle ? "0%" : "-100%",
-          }}
+          onClick={(e) => e.stopPropagation()}
+          className="absolute top-0 left-0 h-full w-3/4 sm:w-1/2 bg-white shadow-lg transition-transform duration-300"
+          style={{ transform: toggle ? "translateX(0)" : "translateX(-100%)" }}
         >
-          {" "}
           <RxCross2
-            fontSize={40}
-            onClick={() => hideSideMenu()}
-            className="m-3"
+            fontSize={30}
+            onClick={hideSideMenu}
+            className="m-3 cursor-pointer"
           />
-          <h1>hello guys</h1>
+          <ul className="mt-5 flex flex-col gap-4 p-3">
+            {links.map((link, idx) => (
+              <li key={idx} className="flex items-center gap-2 text-lg font-medium hover:text-[#ff5200]">
+                <Link to={link.path} onClick={hideSideMenu} className="flex items-center gap-2">
+                  {link.icon} {link.Name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-     <header className="p-3 shadow-xl sticky top-0 bg-white overflow-hidden  z-10">
-        <div className=" md:w-[1400px] w-[300px]  mx-auto flex  justify-between items-center">
-         <div className="flex">
-           <Link to="/" >
-            <div className="lg:w-[100px]  w-[50px]">
+
+     
+      <header className="sticky top-0 z-10 w-full bg-white shadow-md">
+        <div className="max-w-[1400px] mx-auto flex items-center justify-between p-3">
+          {/* Logo + Address */}
+          <div className="flex items-center gap-3">
+            <Link to="/">
               <img
-                src="image\swiggylogo.png"
-                alt=" swiggy logo "
-                className="w-full"
+                src="image/swiggylogo.png"
+                alt="swiggy logo"
+                className="w-12 sm:w-20"
               />
+            </Link>
+            <div className="hidden sm:flex flex-col text-sm sm:text-base">
+              <span className="font-bold text-black">Ratanada</span>
+              Jadhpur, Rajasthan, India
             </div>
-          </Link>
-          <div className="md:text-[18px] text-[12px]">
-            <span className=" font-bold text-black border-b-1 mr-[5px]">
-              Ratanada
-            </span><br />
-            Jadhpur,Rajasthan,India
+            {/* Dropdown icon for mobile */}
             <RiArrowDropDownLine
-              fontSize={35}
-              className="inline text-[#ff5200] cursor-pointer"
-              onClick={() => showShideMenu()}
+              className="text-[#ff5200] cursor-pointer sm:hidden"
+              fontSize={30}
+              onClick={showSideMenu}
             />
           </div>
-         </div>
-          <div className="flex list-none justify-around w-[600px]  font-semibold text-[18px]">
-            {link.map((link, index) => {
-              return (
-                <li key={index} className="flex items-center gap-[10px]">
-                  <Link
-                    to={link.path}
-                    className="flex items-center gap-[10px] hover:text-[#ff5200]"
-                  >
-                    {link.icon} {link.Name}
-                  </Link>
-                </li>
-              );
-            })}
+
+          {/* Desktop Links */}
+          <ul className="hidden sm:flex items-center gap-6 font-semibold text-[16px]">
+            {links.map((link, idx) => (
+              <li key={idx} className="flex items-center gap-2 hover:text-[#ff5200]">
+                <Link to={link.path} className="flex items-center gap-2">
+                  {link.icon} {link.Name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          {/* Hamburger menu for mobile */}
+          <div className="sm:hidden">
+            <button onClick={showSideMenu} className="text-2xl">
+              ☰
+            </button>
           </div>
         </div>
       </header>

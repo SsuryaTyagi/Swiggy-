@@ -43,14 +43,14 @@ export default function TopRest() {
   };
 
   return (
-    <div className="h-full w-full flex items-center justify-center flex-col">
-      <div className="w-[1200px] shrink-0 grow">
+    <div className="h-full w-full flex items-center  flex-col">
+      <div className="lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[300px] shrink-0 grow">
         {/* Header with buttons */}
         <SliderTopHeading scrollLeft={scrollLeft} scrollRight={scrollRight} title="Top restaurant chains in Chhindwara"/>
         {/* Cards Slider */}
         <div
           ref={sliderRef}
-          className="flex gap-[25px] overflow-hidden w-[1200px] scroll-smooth"
+          className="flex gap-[25px] overflow-hidden lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[300px] scroll-smooth"
         >
           {data.map((item, index) => (
             <div key={index} className="flex-shrink-0 ">
