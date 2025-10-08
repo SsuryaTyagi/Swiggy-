@@ -22,11 +22,11 @@ export default function Category() {
   return (
     <>
       <div className=" w-screen flex items-center  flex-col">
-        <div className="lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[360px]">
+        <div className="lg:w-[1200px] md:w-[750px] sm:w-[600px] w-[380px]">
           {/* Header with buttons */}
             <SliderTopHeading scrollRight={handleNext} scrollLeft={handlePrev} title="What's on your mind?"/>
 
-          <div className="overflow-hidden relative">
+          <div className="overflow-auto hide-scrollbar relative">
             <div
               className="flex transition-transform duration-300"
               style={{
@@ -39,7 +39,7 @@ export default function Category() {
                   key={index}
                   state={{ name: cat.path, dis: cat.dis }}
                 >
-                  <div className="shrink-0 md:w-[200px] sm:w-[120px] w-[50px]">
+                  <div className="shrink-0 md:w-[200px] sm:w-[120px] w-[80px]">
                     <img
                       src={`https://swiggy-backend-soko.onrender.com/images/${cat.image}`}
                       alt=""

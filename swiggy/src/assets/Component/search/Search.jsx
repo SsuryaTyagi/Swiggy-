@@ -27,14 +27,14 @@ export default function Search() {
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          className="w-[1200px] border border-black h-[50px] p-4 placeholder:p-[20px] font-bold"
+          className="w-[1200px] border border-black h-[50px] md:p-4 p-2 placeholder:md:p-[20px] placeholder:p-[6px] font-bold"
           placeholder="Search for restaurants and food"
         />
-      { value === "" ? <FaSearch className="absolute left-[78%] text-2xl text-gray-500" />:  <RxCross2 className="absolute left-[78%] text-2xl text-gray-500"            onClick={handleClear}
+      { value === "" ? <FaSearch className="absolute md:left-[78%] left-[85%] text-2xl text-gray-500" />:  <RxCross2 className="absolute left-[78%] text-2xl text-gray-500"            onClick={handleClear}
  />}
         
       </div>
-      <div className="grid grid-cols-5 gap-2 mt-6">
+      <div className="grid md:grid-cols-5 grid-cols-3 gap-2 mt-6">
         {/* Agar search empty hai to kuch mat dikhana */}
         {value === "" ? null : filtered.length > 0 ? (
           filtered.map((item, index) => (

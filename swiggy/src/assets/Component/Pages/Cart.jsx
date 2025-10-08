@@ -15,8 +15,8 @@ export default function Cart() {
   );
 
   return (
-    <div className=" bg-[#e9ecee] h-screen  flex justify-center overflow-hidden items-center">
-      <div className=" bg-white min-h-[800px] w-[1200px] p-4 flex  justify-between  ">
+    <div className=" bg-[#e9ecee] h-screen  flex justify-center overflow-hidden pt-[40px]  items-center">
+      <div className=" bg-white min-h-[800px] w-[1200px] p-4  justify-between  ">
         {cart.length === 0 ? (
           <div className=" w-full flex justify-center items-center   ">
             <p className="text-gray-500 font-bold text-2xl  ">Cart is empty🛍️😕</p>

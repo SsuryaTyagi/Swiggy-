@@ -18,7 +18,7 @@ export default function RestaurantCard(items) {
   }, [imageIndex, image.length]);
 
   return (
-    <div className="w-[500px] bg-white rounded-2xl shadow-md overflow-hidden mt-5">
+    <div className="lg:w-[500px] md:w-[350px] w-[380px] bg-white rounded-2xl shadow-md overflow-hidden mt-5">
       
       {/* Image & Name + Rating */}
       <div className="relative w-full h-[180px]">

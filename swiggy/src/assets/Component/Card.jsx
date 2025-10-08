@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Card(props) {
   return (
     <Link to="/chhindwara" state={props}>
-      <div className="w-[90%] sm:w-[180px] md:w-[200px] lg:w-[280px] bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer hover:shadow-xl duration-300">
+      <div className="w-[120px] sm:w-[180px] h-[220px] md:h-auto md:w-[200px] lg:w-[280px] bg-white mb-4 rounded-2xl shadow-md overflow-hidden cursor-pointer hover:shadow-xl duration-300">
         {/* Image Section */}
         <div className="relative group ">
           <img
@@ -26,7 +26,7 @@ export default function Card(props) {
             {props.place}
           </h3>
 
-          <div className="flex items-center text-xs sm:text-sm text-gray-600 mt-1">
+          <div className="flex items-start  text-[12px] sm:text-sm text-gray-600 mt-1">
             <FaStar className="text-yellow-500 mr-1" />
             <span className="font-semibold">{props.rating}</span>
             <span className="mx-1 sm:mx-2">•</span>
@@ -35,10 +35,10 @@ export default function Card(props) {
             </span>
           </div>
 
-          <div className="text-xs sm:text-sm text-gray-500 mt-1 truncate">
+          <div className="text-sm sm:text-sm text-gray-500 mt-1 truncate">
             {props.Items}
           </div>
-          <div className="text-xs sm:text-sm text-gray-400 truncate">
+          <div className="text-sm sm:text-sm text-gray-400 truncate">
             {props.name}
           </div>
         </div>
