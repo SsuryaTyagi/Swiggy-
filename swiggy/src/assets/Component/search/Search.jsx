@@ -6,6 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 
 
 
+
 export default function Search() {
   const [value, setValue] = useState("");
     const {data}= useContext(RestContext)

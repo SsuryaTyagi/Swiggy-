@@ -14,6 +14,8 @@ import Offer from './assets/Component/Pages/Offer.jsx'
 import Chhindwara from './assets/Component/Pages/Chhindwara.jsx'
 import HelpSupport from './assets/Component/Pages/Help.jsx'
 import Cart from './assets/Component/Pages/Cart.jsx'
+import Signup from './assets/Component/Pages/Signup.jsx'
+import Login from './assets/Component/Pages/Login.jsx'
 
 export default function App() {
       const places=[
@@ -66,6 +68,8 @@ export default function App() {
              <Route path='/help' element={<HelpSupport/>}/>
                 <Route path='/chhindwara' element={<Chhindwara/>}/>
                 <Route path='/cart' element={<Cart/>}/>
+                <Route path='/signup' element={<Signup/>}/>
+                <Route path='/login' element={<Login/>}/>
       </Routes>
 </div>
       
