@@ -17,6 +17,7 @@ import Cart from './assets/Component/Pages/Cart.jsx'
 import Signup from './assets/Component/Pages/Signup.jsx'
 import Login from './assets/Component/Pages/Login.jsx'
 
+// restaurants={restaurants}
 export default function App() {
       const places=[
         {name:"Best Restaurant s in Bangalore"},
